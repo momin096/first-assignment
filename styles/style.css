@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+/* header */
+.header{
+    background-image: url(../images/banner/banner1.png);
+    overflow: hidden;
+    background-size: cover;
+    height: 1000px;
+}
+/* Header Menu */
+.menu{
+    display: flex;
+    justify-content: right;
+    margin: 20px 200px;
+
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    padding: 10px 50px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* Menu Hover  */
+
+.menu li a:hover{
+    text-decoration: underline;
+
+}
+
+/* header caption */
+
+.header-caption{
+   margin: 300px 250px 0 1200px;
+   text-align: right;
+}
+.header-caption h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.header-caption p{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* contract us button */
+
+.con-btn{
+    color: white;
+    font-size: 20px;
+    background-color: orangered;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
