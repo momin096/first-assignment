@@ -14,30 +14,7 @@
     background-size: cover;
     height: 1000px;
 }
-/* Header Menu */
-.menu{
-    display: flex;
-    justify-content: right;
-    margin: 20px 200px;
 
-}
-.menu li{
-    list-style: none;
-}
-.menu li a{
-    padding: 10px 50px;
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-
-}
-
-/* Menu Hover  */
-
-.menu li a:hover{
-    text-decoration: underline;
-
-}
 
 /* header caption */
 
@@ -64,3 +41,169 @@
     border: 0;
     padding: 10px 20px;
     border-radius: 8px;
+  
+}
+
+
+
+/* banner section */
+
+.banner{
+    margin:150px 300px 200px 300px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* banner right */
+
+.banner .right-banner ul  li{
+   list-style:none ;
+}
+.banner .right-banner ul  li i{
+    color: rgb(101, 253, 101);
+}
+.right-banner{
+    margin: 250px 200px 0 0;
+}
+.right-banner h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.right-banner p{
+    margin-bottom: 20px;
+    color: gray;
+}
+.right-banner ul li{
+    margin-bottom: 10px;
+}
+
+/* Plan item */
+.plan{
+    margin-bottom: 150px;
+}
+.plan h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+}
+
+.plan-item img{
+    width: 70px;
+    margin-bottom: 15px;
+
+}
+.plan-item p{
+    color: gray;
+    margin-top: 7px;
+}
+
+/* succes item */
+.succes{
+    margin-bottom: 150px;
+}
+.succes h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+.succed{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+}
+
+.succes-item img{
+    width: 70px;
+    margin-bottom: 15px;
+
+}
+.succes-item p{
+    color: gray;
+    margin-top: 7px;
+}
+/* Contract section */
+.contract{
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+   
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 100px;
+   
+}
+
+.contract-caption {
+ margin: 0px 0 0 450px;
+ padding: 30px;
+}
+
+.contract-caption h1{
+    padding: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+
+.btn{
+    background-color: white;
+    color: orangered;
+    margin-left: 30px;
+}
+
+
+
+/* footer section */
+.btnn{
+    background-color: white;
+    color: orangered;}
+footer{
+
+   color: white;
+    background-color: #2d3436;
+    padding: 100px;
+}
+.footer2{
+    margin: 0 300px;
+    display: flex;
+    gap: 300px;
+}
+.footer-left h1{
+    margin: 20px 0;
+}
+.footer-left p{
+    margin-bottom: 20px;
+}
+
+.footer-left .social-icon{
+    display: flex;
+    gap: 10px;
+
+}
+.social-icon img{
+    width: 30px;
+}
+
+/* footer right  */
+.footer-right h2{
+margin-bottom: 20px;
+}
+.footer-right input{
+    padding: 18px 35px;
+    background-color: #2d3436;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
